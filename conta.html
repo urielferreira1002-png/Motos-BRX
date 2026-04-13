@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minha Conta | Motos BRX</title>
+  <meta name="description" content="Conta autenticada do showroom Motos BRX." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="auth-config.js"></script>
+  <script src="auth.js"></script>
+</head>
+<body>
+  <nav class="topbar container auth-topbar">
+    <div class="brand">
+      <span class="brand-mark">BRX</span>
+      <span class="brand-name">Motos BRX</span>
+    </div>
+    <div class="nav-actions">
+      <a class="btn btn-ghost" href="index.html">Voltar ao Site</a>
+    </div>
+  </nav>
+
+  <main class="auth-shell account-shell">
+    <section class="auth-card account-card reveal visible">
+      <p class="kicker">Conta Google</p>
+      <h1 class="auth-title">Minha Conta</h1>
+      <div class="account-panel">
+        <img id="accountAvatar" class="account-avatar" alt="Avatar da conta" src="" />
+        <div class="account-meta">
+          <strong id="accountName">Carregando...</strong>
+          <span id="accountEmail">Carregando...</span>
+        </div>
+      </div>
+      <p class="auth-note">Esse acesso e liberado apenas para usuarios autenticados. Ao sair, o site volta a exigir login.</p>
+      <div class="detail-actions">
+        <a class="btn btn-primary" href="index.html">Ir para o Catalogo</a>
+        <button class="btn btn-ghost auth-logout" id="logoutButton" type="button">Sair</button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

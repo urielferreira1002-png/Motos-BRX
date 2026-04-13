@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | Motos BRX</title>
+  <meta name="description" content="Acesso ao showroom Motos BRX com conta Google." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="auth-config.js"></script>
+  <script src="auth.js"></script>
+  <script src="login.js" defer></script>
+</head>
+<body class="auth-page">
+  <main class="auth-shell">
+    <section class="auth-card reveal visible">
+      <div class="auth-brand">
+        <span class="brand-mark">BRX</span>
+        <span class="brand-name">Motos BRX</span>
+      </div>
+      <p class="kicker">Acesso Restrito</p>
+      <h1 class="auth-title">Entrar com Google</h1>
+      <p class="auth-copy">O showroom so fica disponivel apos autenticacao. Entre com sua conta Google para continuar.</p>
+      <div class="google-login-mount">
+        <button class="btn btn-primary auth-google-button" id="googleSignInButton" type="button">Continuar com Google</button>
+      </div>
+      <p class="auth-warning" id="loginError" hidden></p>
+      <p class="auth-note">A autenticacao usa o provedor oficial do Google. Nenhuma senha e digitada nesta pagina.</p>
+    </section>
+  </main>
+</body>
+</html>

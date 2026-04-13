@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Motos BRX | Premium RP</title>
+  <meta name="description" content="Concessionária premium de motos para cidade RP FiveM." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="auth-config.js"></script>
+  <script src="auth.js"></script>
+</head>
+<body>
+  <header class="catalog-hero" id="inicio">
+    <nav class="topbar container">
+      <div class="brand">
+        <span class="brand-mark">BRX</span>
+        <span class="brand-name">Motos BRX</span>
+      </div>
+      <div class="nav-actions">
+        <a class="btn btn-ghost" href="#catalogo">Catálogo</a>
+        <a class="btn btn-discord" href="https://discord.gg/seu-servidor" target="_blank" rel="noopener noreferrer">Entrar no Discord</a>
+      </div>
+    </nav>
+
+    <div class="hero-content container reveal">
+      <p class="eyebrow">Showroom Oficial • FiveM RP</p>
+      <h1>Catálogo de Motos</h1>
+      <p class="tagline">Escolha sua máquina e abra a página individual para detalhes completos.</p>
+      <a class="btn btn-primary" href="#catalogo">Ver Todas</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section reveal" id="catalogo">
+      <div class="container">
+        <div class="section-head">
+          <p class="kicker">Linha Completa</p>
+          <h2>Motos Comuns</h2>
+        </div>
+        <div class="grid catalog" id="catalogGrid"></div>
+      </div>
+    </section>
+
+    <section class="section vip reveal" id="vip">
+      <div class="container">
+        <div class="section-head">
+          <p class="kicker">Exclusividade</p>
+          <h2>Motos VIP</h2>
+          <p class="section-copy">Cada modelo VIP também possui sua própria página individual.</p>
+        </div>
+        <div class="grid vip-grid" id="vipGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Motos BRX • Cidade RP</p>
+      <a class="btn btn-ghost" href="#inicio">Voltar ao topo</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
